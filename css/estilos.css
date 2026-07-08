@@ -1,8 +1,27 @@
+/* ===========================
+   RESET
+=========================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:Arial,sans-serif;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
 header{
 
     height:100px;
@@ -16,25 +35,95 @@ header{
     background-repeat:no-repeat;
 
 }
-body{
 
-    font-family:Arial,sans-serif;
+/* ===========================
+   CONTENEDOR
+=========================== */
 
-    background:red;
-
-}
 .contenedor{
 
-    width:1200px;
+    width:1250px;
+
+    height:100%;
 
     margin:0 auto;
 
     display:flex;
-	
-	justify-content:space-between;
-	
-		align-items:center;
-	
 
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo img{
+
+    height:90px;
+
+}
+
+/* ===========================
+   NOMBRE DEL LOGO
+=========================== */
+
+.nombre-logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    line-height:1.05;
+
+}
+
+/* ===========================
+   MENÚ
+=========================== */
+
+nav{
+
+    display:flex;
+
+    gap:90px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+/* ===========================
+   BOTÓN
+=========================== */
+
+.cta img{
+
+    height:55px;
 
 }
