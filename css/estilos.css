@@ -3,3 +3,16 @@
     padding:0;
     box-sizing:border-box;
 }
+header{
+
+    height:100px;
+
+    background-image:url("../img/fondos/header.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
