@@ -1,44 +1,97 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio Definitivo</title>
-	<link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<header>
-    <div class="contenedor">
+body{
 
-        <div class="logo">
-            Seguridad Privada Mexicana
-        </div>	
-	        <nav>
-			   
-            <a href="#">Inicio</a>
+    font-family:Arial,sans-serif;
 
-            <a href="#">Servicios</a>
+}
+header{
 
-            <a href="#">Nosotros</a>
+    height:100px;
 
-            <a href="#">Contacto</a>
-				
-			</nav>
-		<div class="cta">
-            Cotizar
-        </div>
-    </div>
+    background-image:url("../img/fondos/header.webp");
 
-</header>
+    background-size:cover;
 
-<main>
+    background-position:center;
 
-</main>
+    background-repeat:no-repeat;
 
-<footer>
+}
 
-</footer>
-<script src="js/script.js"></script>
-</body>
-</html>
+.contenedor{
+
+    width:1200px;
+
+    margin:0 auto;
+
+    display:flex;
+	
+	justify-content:space-between;
+	
+		align-items:center;
+	
+
+
+}
+
+
+
+.logo img{
+
+    height:90px;
+
+}
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.nombre-logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    line-height:1.1;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:80px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.cta img{
+
+    height:45px;
+
+}
