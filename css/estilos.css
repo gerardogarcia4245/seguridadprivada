@@ -306,3 +306,75 @@ nav a{
 
 
 }
+
+/*comenzamos sección contacto*/
+
+
+.contacto{
+
+    height:450px;
+
+    background-color:aliceblue;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.contacto .contenedor{
+     width:1200px;
+    height:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.contacto-texto{
+
+    width:530px;
+
+}
+
+
+.contacto-texto h2{
+
+    font-size:40px;
+
+    color:#111;
+
+    line-height:1.1;
+
+    margin-bottom:30px;
+
+}
+
+.contacto-boton{
+
+    display:inline-block;
+
+    background:#0B3A5B;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 35px;
+
+    font-weight:bold;
+
+    border-radius:4px;
+
+}
+
+.contacto-imagen img{
+
+    width:600px;
+
+}
