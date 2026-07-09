@@ -1,9 +1,7 @@
 /* ===========================
    RESET
 =========================== */
-body{
-    background: lime !important;
-}
+
 *{
     margin:0;
     padding:0;
