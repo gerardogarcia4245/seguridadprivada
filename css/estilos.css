@@ -127,3 +127,76 @@ nav a{
     height:55px;
 
 }
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    height:700px;
+
+    background-image:url("../img/fondos/hero.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.hero .contenedor{
+     width:1350px;
+    height:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.hero-texto{
+
+    width:420px;
+
+}
+
+
+.hero-texto h1{
+
+    font-size:40px;
+
+    color:#111;
+
+    line-height:1.1;
+
+    margin-bottom:30px;
+
+}
+
+.hero-boton{
+
+    display:inline-block;
+
+    background:#0B3A5B;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 35px;
+
+    font-weight:bold;
+
+    border-radius:4px;
+
+}
+
+.hero-imagen img{
+
+    width:850px;
+
+}
