@@ -1,7 +1,9 @@
 /* ===========================
    RESET
 =========================== */
-
+body{
+    background: lime !important;
+}
 *{
     margin:0;
     padding:0;
@@ -198,5 +200,111 @@ nav a{
 .hero-imagen img{
 
     width:850px;
+
+}
+
+
+
+.servicios{
+
+    height:700px;
+
+    background-image:url("../img/fondos/servicios.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+
+.servicios .contenedor {
+     width:1350px;
+    height:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.tarjeta{
+
+    width:350px;
+
+}
+
+.tarjeta img{
+
+     width:100%;
+
+    display:block;
+
+}
+
+.nosotros{
+
+    height:450px;
+
+    background-image:url("../img/fondos/nosotros.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+	
+	}
+
+.nosotros .contenedor{
+     width:1350px;
+    height:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+	 gap:60px;
+
+}
+
+.nosotros-imagen img{
+
+    width:600px; 
+
+}
+
+ .nosotros-texto{
+
+    display:flex;
+
+    align-items:center;
+
+    gap: 60px;
+}
+
+.nosotros-texto h2{
+
+    font-size:35px;
+	text-align:center;
+	
+	}
+.nosotros-texto p{
+
+    font-size:22px;
+	 text-align:justify;
+
+    line-height:1.2;
+	
+	}
+.nosotros-imagen{
+
+    align-self:flex-end;
+
 
 }
