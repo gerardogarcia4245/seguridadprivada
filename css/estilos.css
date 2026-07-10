@@ -723,5 +723,92 @@ nav a{
 
 }
 
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                          HOVER
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+
+
+header nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:0.2s;
+
+}
+
+header nav a:hover{
+
+    color:#FF8C00;
+	 text-decoration:underline;
+
+}
+
+footer nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:0.2s;
+
+}
+
+footer nav a:hover{
+
+    color:#FF8C00;
+	 text-decoration:underline;
+
+}
+
+.mision-boton:hover{
+    background:#FF8C00;
+    transition:0.2s;
+
+}
+
+
+.descarga-boton:hover{
+    background:#008000;
+    transition:0.2s;
+
+}
+
+
+.contacto-boton:hover{
+    background:#FF8C00;
+    transition:0.2s;
+
+}
+
+
+.hero-boton:hover{
+     background:#FF8C00;
+    transition:0.2s;
+
+}
+
+.tarjeta{
+
+    transition:0.3s;
+
+}
+.tarjeta:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.cta:hover{
+    transition:0.2s;
+	height:65px;
+  
+
+}
 
